@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="104.454692">
+<testcase classname="To validate login functionality of fb application" name="To validate login with empty username and empty password" time="32.637317">
+<system-out><![CDATA[Given user need to be in login page.........................................passed
+When user will clicks login page............................................passed
+Then user will navigate to invalid credentila page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the search functionality of amazon page" name="To check the searchablity of desired product" time="71.817375">
+<system-out><![CDATA[Given user need to be in amazon page........................................passed
+When user will enter product name in search box.............................passed
+And use clicks search button................................................passed
+Then user will redirect tp product page.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

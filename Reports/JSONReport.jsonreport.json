@@ -1,0 +1,210 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6333751,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user need to be in login page",
+            "match": {
+              "location": "StepDefenition1.user_need_to_be_in_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-19T03:23:12.156Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23310914332,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To validate login with empty username and empty password",
+        "description": "",
+        "id": "to-validate-login-functionality-of-fb-application;to-validate-login-with-empty-username-and-empty-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1186751807,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8009805584,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user will clicks login page",
+            "match": {
+              "location": "StepDefnition2.user_will_clicks_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3500667,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user will navigate to invalid credentila page",
+            "match": {
+              "location": "StepDefnition2.user_will_navigate_to_invalid_credentila_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functionality of fb application",
+    "description": "",
+    "id": "to-validate-login-functionality-of-fb-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-19T03:23:44.807Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23453668566,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To check the searchablity of desired product",
+        "description": "",
+        "id": "to-validate-the-search-functionality-of-amazon-page;to-check-the-searchablity-of-desired-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1047280763,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1048783,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user need to be in amazon page",
+            "match": {
+              "location": "StepDefnition3.user_need_to_be_in_amazon_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25784289366,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user will enter product name in search box",
+            "match": {
+              "location": "StepDefnition3.user_will_enter_product_name_in_search_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "product"
+                ]
+              },
+              {
+                "cells": [
+                  "iphone"
+                ]
+              },
+              {
+                "cells": [
+                  "mac laptop"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21505970390,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "use clicks search button",
+            "match": {
+              "location": "StepDefnition3.use_clicks_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 960325,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user will redirect tp product page",
+            "match": {
+              "location": "StepDefnition3.user_will_redirect_tp_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the search functionality of amazon page",
+    "description": "",
+    "id": "to-validate-the-search-functionality-of-amazon-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/product.feature",
+    "tags": []
+  }
+]
